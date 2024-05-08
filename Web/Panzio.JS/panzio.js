@@ -32,7 +32,7 @@ function Kalkulalas() {
     var vendegSzam = parseInt(document.getElementById('vendeg_szam').value);
     var furdoszolgaltatasokAr = 0;
     var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    
+
     checkboxes.forEach(function(checkbox) {
         furdoszolgaltatasokAr += parseInt(checkbox.value);
     });
