@@ -10,11 +10,6 @@ class Szemely {
     }
 }
 
-// Tesztelés
-const szemely = new Szemely('John Doe', 30, 'férfi');
-console.log(szemely.getAdatok()); // Kiír: Név: John Doe, Életkor: 30, Nem: férfi
-
-
 document.addEventListener('DOMContentLoaded', function () {
     function submitForm() {
         const nev = document.getElementById('nev').value;
@@ -29,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                       <p>Nem: ${szemely.nem}</p>`;
     }
 
-    // Gomb eseménykezelő hozzárendelése
     const submitButton = document.getElementById('submitButton');
     submitButton.addEventListener('click', submitForm);
 });

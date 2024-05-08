@@ -22,8 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                      <p>Szerző: ${konyv.szerzo}</p>
                                      <p>Kiadási év: ${konyv.kiadasiEv}</p>`;
     }
-
-    // Gomb eseménykezelő hozzárendelése
+    
     const submitButton = document.getElementById('submitButton');
     submitButton.addEventListener('click', submitForm);
 });

@@ -26,8 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                        <p>Terület: ${kor.terulet().toFixed(2)}</p>
                                        <p>Kerület: ${kor.kerulet().toFixed(2)}</p>`;
     }
-
-    // Gomb eseménykezelő hozzárendelése
+    
     const submitButton = document.getElementById('submitButton');
     submitButton.addEventListener('click', submitForm);
 });
