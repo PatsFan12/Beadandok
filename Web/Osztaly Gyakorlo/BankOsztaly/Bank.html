@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Űrlap</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="Bank.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="nev">Név:</label>
+                <input type="text" class="form-control" id="nev" placeholder="Adja meg a nevét">
+            </div>
+            <div class="form-group">
+                <label for="cim">Cím:</label>
+                <input type="text" class="form-control" id="cim" placeholder="Adja meg a címét">
+            </div>
+            <div class="form-group">
+                <label for="feltolt">Feltöltés:</label>
+                <input type="number" class="form-control" id="feltolt" placeholder="Adja meg a feltöltendő összeget">
+            </div>
+            <div class="form-group">
+                <label for="levon">Levétel:</label>
+                <input type="number" class="form-control" id="levon" placeholder="Adja meg a levenni kívánt összeget">
+            </div>
+            <div class="form-group">
+                <label for="egyenleg">Egyenleg:</label>
+                <input type="number" class="form-control" id="egyenleg" placeholder="Adja meg az egyenlegét">
+            </div>
+            <button type="button" class="btn btn-primary" id="feltoltes">Készpénz feltöltés</button>
+            <button type="button" class="btn btn-danger" id="levetel">Készpénz levétel</button>
+        </form>
+        <div id="egyenlegDiv"></div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
