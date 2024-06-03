@@ -1,0 +1,14 @@
+{
+  "name": "eloadas",
+  "version": "1.0.0",
+  "main": "eloadas.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vitest": "^1.6.0"
+  }
+}
